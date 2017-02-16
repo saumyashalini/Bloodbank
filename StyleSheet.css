@@ -1,0 +1,121 @@
+﻿body 
+{
+    margin:0px
+}
+#navholder
+{
+    height:40px;
+    background-color:Red;
+}
+.nav
+{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:22px;
+    padding-top:5px;
+}
+.nav a
+{
+    text-decoration:none;
+    color: white;
+}
+.nav:hover
+{
+    background-color:Silver;
+    height:35px;
+}
+.sa
+{
+  
+    float:left;
+    width:600px;
+    border:5px solid red;
+    border-left-style:dotted;
+    border-right-style:dotted;
+    border-bottom-style:dotted;
+    border-top-style:dotted;
+    
+ }
+ .log
+ {   background-image:url(images/Tue2014_BackgroundBokeh_3.jpg);
+      width:1370px;
+    min-height:400px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid black;
+ }
+#login
+{
+    padding-top:30px;
+   padding-left:500px;
+   
+     
+    
+}
+#reg
+{ background-image:url(images/Tue2014_BackgroundBokeh_3.jpg);
+      width:1370px;
+    min-height:400px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid black;
+    
+}
+
+.as
+{
+     float:left;
+    width:500px;
+        
+}
+
+.search
+{ float:left;
+  width:400px;
+  padding-top:10px;
+
+}
+.contact
+{
+    float:left;
+    width:400px;
+}
+.update
+{
+  background-image:url(images/bloodcell.jpg);
+    width:1370px;
+    min-height:400px;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:1px solid black;
+}
+
+#update_center
+{
+   padding-top:30px;
+   padding-left:500px;
+    
+    
+}
+
+#update_center table
+{
+    background-color:gray;
+    border:none;
+    font-family:@Arial Unicode MS Arial;
+    font-weight:300;
+    font-size:1em;
+    text-transform:uppercase;
+}
+
+.home
+{
+ float:left;   
+}
+.hdonors
+{ float:left;
+  width:350px;
+    text-decoration: underline;
+}
+

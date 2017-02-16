@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"><!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table>
+    <tr>
+    <td>
+        <img src="images/Bloodbankms.jpg" height="180px" width="1375px" />
+    
+    </td></tr></table>
+    <div id="navholder">
+    <div class="nav"><a href="Default.aspx">Home</a></div>
+    <div class="nav"><a href="whydonate.aspx">Why Donate Blood?</a></div>
+    <div class="nav"><a href="registration.aspx">Registration</a></div>
+    <div class="nav"><a href="searchdonor.aspx">search Donor</a></div>
+    <div class="nav"><a href="contactus.aspx">Contact Us</a></div>
+    <div class="nav"><a href="login.aspx">Login</a></div>
+ <div class="nav"><a href="#">Terms & Condition</a></div>
+ <div class="nav"><a href="#">Privacy Policy</a></div>
+
+   
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
